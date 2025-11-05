@@ -1,24 +1,7 @@
-2025-11-05 12:45:01 - Message de log
-find: ‘/home/alp/PhpstormProjects/Personal/cron-test/created_files/’: Aucun fichier ou dossier de ce nom
-touch: impossible de faire un touch '/home/alp/PhpstormProjects/Personal/cron-test/created_files/file_202511051245': Aucun fichier ou dossier de ce nom
-2025-11-05 12:45:01 - Message de log
-2025-11-05 12:46:01 - Message de log
-touch: impossible de faire un touch '/home/alp/PhpstormProjects/Personal/cron-test/created_files/file_202511051246'find: ‘/home/alp/PhpstormProjects/Personal/cron-test/created_files/’: Aucun fichier ou dossier de ce nom
-: Aucun fichier ou dossier de ce nom
-2025-11-05 12:46:01 - Message de log
-find: ‘/home/alp/PhpstormProjects/Personal/cron-test/created_files/’: Aucun fichier ou dossier de ce nom
-2025-11-05 12:47:01 - Message de log
-touch: impossible de faire un touch '/home/alp/PhpstormProjects/Personal/cron-test/created_files/file_202511051247': Aucun fichier ou dossier de ce nom
-2025-11-05 12:47:01 - Message de log
-find: ‘/home/alp/PhpstormProjects/Personal/cron-test/created_files/’: Aucun fichier ou dossier de ce nom
-2025-11-05 12:48:01 - Message de log
-touch: impossible de faire un touch '/home/alp/PhpstormProjects/Personal/cron-test/created_files/file_202511051248': Aucun fichier ou dossier de ce nom
-2025-11-05 12:48:01 - Message de log
-find: ‘/home/alp/PhpstormProjects/Personal/cron-test/created_files/’: Aucun fichier ou dossier de ce nom
-2025-11-05 12:49:01 - Message de log
-touch: impossible de faire un touch '/home/alp/PhpstormProjects/Personal/cron-test/created_files/file_202511051249': Aucun fichier ou dossier de ce nom
-2025-11-05 12:49:01 - Message de log
-find: ‘/home/alp/PhpstormProjects/Personal/cron-test/created_files/’: Aucun fichier ou dossier de ce nom
-2025-11-05 12:50:01 - Message de log
-touch: impossible de faire un touch '/home/alp/PhpstormProjects/Personal/cron-test/created_files/file_202511051250': Aucun fichier ou dossier de ce nom
-2025-11-05 12:50:01 - Message de log
+/home/alp/PhpstormProjects/Personal/cron-test/created_files/file_2025-11-05_160301
+2025-11-05 16:06:01 - Message de log
+/home/alp/PhpstormProjects/Personal/cron-test/created_files/long_file_2025-11-05_160311
+/home/alp/PhpstormProjects/Personal/cron-test/created_files/file_2025-11-05_160401
+2025-11-05 16:07:01 - Message de log
+/home/alp/PhpstormProjects/Personal/cron-test/created_files/file_2025-11-05_160501
+2025-11-05 16:08:01 - Message de log
