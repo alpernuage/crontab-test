@@ -1,0 +1,23 @@
+# sudo nano /etc/logrotate.d/cron-test
+# Ceci est un commentaire explicatif pour logrotate
+
+/home/alp/PhpstormProjects/Personal/cron-test/cron-test.log {
+    size 1k                # rotation déclenchée quand le fichier atteint 1 kilo-octet
+    daily                  # rotation quotidienne
+    missingok              # pas d’erreur si le fichier log n’existe pas au moment de la rotation
+    rotate 7               # conserver 7 fichiers d’archive avant suppression des plus anciens
+    compress               # compresser les logs archivés en .gz pour économiser de l’espace
+    delaycompress          # différer compression du plus récent fichier
+    notifempty             # ne pas effectuer de rotation si le fichier est vide
+    create 640 alp alp     # recréer le fichier log après rotation avec droits 640, propriétaire alp/groupe alp
+    sharedscripts          # exécuter la section postrotate une seule fois si plusieurs fichiers sont concernés
+    dateext                # ajouter la date dans le nom des fichiers archivés (ex: log.log-20251105.gz)
+    dateformat             # **Format de Date Personnalisé** | Définit le format des archives avec `dateext`. Essentiel pour les rotations multi-journalières. *Ex:* `dateformat -%Y%m%d-%H%M%S`
+    copytruncate           # copier le fichier log, puis le tronquer à zéro (solution pour les applications gardant un descripteur)
+    su alp alp             # Changer l'utilisateur/groupe pour l'opération de rotation
+    postrotate
+        # Ici tu peux placer un script ou une commande (par exemple recharger un service si nécessaire) ex :
+        # systemctl reload rsyslog > /dev/null 2>&1 || true
+        # Par défaut pour ce log personnel, ce bloc peut rester vide ou tu peux enlever postrotate/endscript
+    endscript
+}
